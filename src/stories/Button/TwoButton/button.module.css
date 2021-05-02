@@ -1,0 +1,226 @@
+.button_with_centered_icon_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-inline: 0.444rem;
+  border-width: 0;
+  outline: none;
+  border-radius: 0.889rem;
+}
+.round_sm_button {
+  width: 1.778rem;
+  height: 1.778rem;
+  border-radius: 0.889rem;
+  background-color: transparent;
+}
+.round_md_button {
+  width: 2.22rem;
+  height: 2.22rem;
+  border-radius: 1.11rem;
+  background-color: #FFFFFF;
+}
+.round_lg_button {
+  width: 2.667rem;
+  height: 2.667rem;
+  border-radius: 1.33rem;
+  background-color: #FFFFFF;
+}
+
+.round_sm_icon {
+  width: 1.778rem;
+  height: 1.778rem;
+}
+.round_md_icon {
+  width: 2.22rem;
+  height: 2.22rem;
+}
+.round_lg_icon {
+  width: 2.667rem;
+  height: 2.667rem;
+}
+
+.rectangular_button {
+  width: 120px;
+  height: 64px;
+  background-color: rgba(36, 36, 59, 0.06);
+}
+.rectangular_icon {
+  width: 1.778rem;
+  height: 1.778rem;
+}
+
+.button_with_centered_icon_container:hover,
+.button_with_centered_icon_container:active,
+.button_with_centered_icon_container:focus {
+  outline: none;
+}
+.button_with_hover {
+  outline: none;
+}
+.button_with_hover:hover {
+  outline: none;
+  background-color: #2C58F61A;
+}
+.pill_button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 9.333rem;
+  height: 2.667rem;
+  padding: 0.8rem 1.333rem;
+  border-width: 0;
+  outline: none;
+  font-size: 0.9rem;
+  border-radius: 1.333rem;
+}
+.ACTIVE_BLUE {
+  color: white;
+  background-color: #2C58F6;
+}
+.ACTIVE_LIGHT_BLUE {
+  color: #2C58F6;
+  background-color: #2C58F61A;
+}
+.LIGHT_ORANGE {
+  background-color: #E668681A;
+  color: #E66868;
+}
+
+.DISABLED {
+  background-color: rgba(36, 36, 59, 0.06);
+  color: #C3C3CA;
+}
+
+.ACTIVE_BLUE:hover:enabled,
+.ACTIVE_BLUE:active:enabled,
+.ACTIVE_BLUE:focus:enabled {
+  color: white;
+  background-color: rgba(44, 88, 246, 0.6);
+}
+.ACTIVE_LIGHT_BLUE:hover:enabled,
+.ACTIVE_LIGHT_BLUE:active:enabled,
+.ACTIVE_LIGHT_BLUE:focus:enabled {
+  color: white;
+  background-color: #2C58F6;
+}
+
+.LIGHT_ORANGE:hover:enabled,
+.LIGHT_ORANGE:active:enabled,
+.LIGHT_ORANGE:focus:enabled {
+  color: white;
+  background-color: #E66868;
+}
+
+.button_centered_icon {
+  width: 1.33rem;
+  height: 1.33rem;
+  margin-right: 0.611rem;
+}
+.reaction_button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 1.556rem;
+  border-radius: 0.778rem;
+  padding: 0.278rem 0.9rem 0.278rem 0.44rem;
+  margin-right: 0.44rem;
+  border-width: 0;
+  outline: none;
+  margin-bottom: 0.444rem;
+}
+.reaction_button img{
+  width: 0.9rem;
+  height: 0.9rem;
+}
+.previous_reaction {
+  background-color: #24243B0F;
+}
+.new_reaction {
+  background-color: #2C58F6;
+}
+.new_grey_reaction {
+  background-color: #24243B0F;
+}
+.reacted_reaction {
+  background-color: #2C58F6;
+}
+.reacted_reaction p{
+  color: #FFFFFF;
+}
+.text_button {
+  background:none;
+  border:none;
+  margin:0;
+  padding:0;
+  cursor: pointer;
+}
+.text_button:hover,
+.text_button:active,
+.text_button:focus,
+.pill_button:hover,
+.pill_button:active,
+.pill_button:focus{
+  outline: none;
+}
+.option_button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.333rem;
+  padding: 0.444rem 0.9rem 0.556rem 0.9rem;
+  outline: none;
+}
+
+.non_selected_option {
+  border: 1px solid #E4E4E7;
+  background-color: #FFFFFF;
+}
+.selected_option {
+  border: none;
+  background-color: #2C58F6;
+}
+.selected_option p {
+  color: #FFFFFF;
+}
+.selected_option:hover {
+  background-color: #2C58F6;
+  outline: none;
+}
+.non_selected_option:hover {
+  background-color: #F2F2F3;
+  outline: none;
+}
+.reaction_button:hover {
+  background-color: #2C58F6;
+  outline: none;
+}
+.new_reaction:hover {
+  background-color: #5679F8;
+}
+.reaction_button:active,
+.reaction_button:focus,
+.option_button:active,
+.option_button:focus {
+  outline: none;
+}
+.reaction_button:hover p {
+  color: #FFFFFF;
+}
+.emoji img{
+  vertical-align: -0.15rem !important;
+}
+
+.tooltip {
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 15px #00000029;
+  border-radius: 0.9rem !important;
+  font-size: 0.9rem !important;
+  font-family: 'Roboto', sans-serif !important;
+  padding: 0.778rem 0.722rem !important;
+  margin-top: 0 !important;
+}
